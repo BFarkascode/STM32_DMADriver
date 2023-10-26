@@ -17,7 +17,6 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include <ADCDMADriver_STM32L0x3.h>								//custom ADC driver
 #include "main.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -25,6 +24,7 @@
 #include "stdint.h"
 #include "stdio.h"
 #include "DMADriver_STM32L0x3.h"								//custom DMA driver
+#include "ADCwDMA_STM32L0x3.h"									//ADC with DMA activated
 
 /* USER CODE END Includes */
 
