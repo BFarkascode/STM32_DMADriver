@@ -14,7 +14,7 @@ In order to have a nice project to show the capabilities of the DMA, we will be 
 ### To read
 We will be using the ADC defined in the STM32_ADC-DACDriver project as the input source for the DMA. As such, familiarity with that project is necessary. We should also check, how the ADC is connected to the DMA:
 -	14.5.5 Managing converted data using the DMA: describes how to set up the DMA on the ADC’s side.
--	
+
 Additionally, for DMA must reads are:
 -	11.3.2 DMA Request Mapping: Table 51 in this section is what tells us, how to configure the DMA channels to connect them to particular peripherals. As the table suggests, only specific channels can be attached to specific peripherals.
 -	11.4.2 DMA transfers: describes how the DMA transfer works
