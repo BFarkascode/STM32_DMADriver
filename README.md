@@ -24,7 +24,7 @@ Additionally, for DMA must reads are:
 -	11.5 DMA interrupts
 -	11.6 DMA registers
 
-Lastly, for the IRQs, there isn’t really a good part in the refman to explain them specifically. The “EXTI” and the “NVIC” sections can give a hint on how they work, but information is somewhat sketchy. I suggest playing with a button IRQ – see the NVMDriver project on how to use the blue button on the nucleo for this purpose – and figure it out by doing.
+Lastly, for the IRQs, there isn’t really a good part in the reference  manual (refman) to explain them specifically. The “EXTI” and the “NVIC” sections can give a hint on how they work, but information is somewhat sketchy. I suggest playing with a button IRQ – see the NVMDriver project on how to use the blue button on the nucleo for this purpose – and figure it out by doing.
 
 ## Particularities
 ### With the peripheral (in this project, the ADC)
