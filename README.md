@@ -1,7 +1,7 @@
 # STM32_DMADriver
 
 ## General description
-Originally I wasn’t planning to do a separate project on direct memory access (DMA) since there isn’t a lot of complicated coding into it, not to mention, the explanations on the internet over how DMA works are far and wide. But then I realised that the concept of DMA itself is useful enough to merit a small project, even if it won’t be unravelling any great mysteries. It will also allow me to talk a bit again about interrupts (IRQs) which is also a topic that is pretty useful to get a hang of but has little in themselves by themselves to be interesting.
+Originally I wasn’t planning to do a separate project on direct memory access (DMA) since there isn’t a lot of complicated coding into it, not to mention, the explanations on the internet over how DMA works are far and wide. But then I realised that the concept of DMA itself is useful enough to merit a small project, even if it won’t be unravelling any great mysteries. It will allow me to talk a bit again about interrupts (IRQs) which is also a topic that is pretty useful to get a hang of but has little to offer by themselves.
 
 In general, DMAs and interrupts (IRQs) are very similar in how they behave since neither of them are, strictly speaking, but of the main programming loop we, well, program. They are both controlled by hardware instead of software and thus either take priority in execution compared to other code segments (as it is with IRQ) or can run IN PARALLEL to the main loop and do their thing.
 
