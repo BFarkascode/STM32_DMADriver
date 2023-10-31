@@ -19,7 +19,7 @@ Because it allows parallel actions. Some rather tedious processes such as commun
 
 Another gate usecase for DMA is the ping-pong buffer: a buffer that is one half loaded while the other half is being processed by the main loop. (We use a ping-pong buffer in the Bootloader project.)
 
-### To read
+## To read
 We will be using the ADC defined in the STM32_ADC-DACDriver project as the input source for the DMA. As such, familiarity with that project is necessary.
 
 We should also check, how the ADC is connected to the DMA:
@@ -35,6 +35,10 @@ Additionally, for the DMA, the "must reads" are:
 -	11.6 DMA registers
 
 For the IRQs, there isn’t really a good part in the reference  manual (refman) to explain them specifically. The Section 13 “EXTI” and the Section 12 “NVIC” sections can give a hint on how they work, but I have found the information to be somewhat sketchy. I suggest playing with a button IRQ – see the NVMDriver project on how to use the blue button on the nucleo for this purpose – and figure it out IRQs by doing if the explanations below are not adequate.
+
+## Previous relevant projects
+The following projects should be checked:
+- STM32_ADC-DACDriver
 
 ## Particularities
 ### With the peripheral (in this project, the ADC)
