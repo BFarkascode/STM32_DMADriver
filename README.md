@@ -1,5 +1,7 @@
 # STM32_DMADriver
 
+A project to implement DMA on an STM32L0x3 using bare metal programming.
+
 ## General description
 Originally I wasn’t planning to do a separate project on direct memory access (DMA) since there isn’t a lot of complicated coding into it, not to mention, the explanations on the internet over how DMA works are far and wide. But then I realised that the concept of DMA itself is useful enough to merit a small project, even if it won’t be unravelling any great mysteries. It will allow me to talk a bit again about interrupts (IRQs) which is also a topic that is pretty useful to get a hang of but has little to offer by themselves.
 
