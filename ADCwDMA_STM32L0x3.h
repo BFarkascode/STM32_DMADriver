@@ -1,8 +1,15 @@
 /*
- * ADCDMADriver_STM32L0x3.h		v.1.0.
- *
  *  Created on: Oct 26, 2023
- *      Author: Balazs Farkas
+ *  Project: STM32_DMADriver
+ *  File: ADCwDMA_STM32L0x3.h
+ *  Author: BalazsFarkas
+ *  Processor: STM32L053R8
+ *  Compiler: ARM-GCC (STM32 IDE)
+ *  Program version: 1.0
+ *  Program description: N/A
+ *  Hardware description/pin distribution: N/A
+ *  Modified from: N/A
+ *  Change history: N/A
  */
 
 #ifndef INC_ADCWDMA_STM32L0X3_H_
