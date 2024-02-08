@@ -1,13 +1,12 @@
 /* USER CODE BEGIN Header */
 /**
- *  Project: STM32_DMADriver
- *  File: main.c
  *  Author: BalazsFarkas
+ *  Project: STM32_DMADriver
  *  Processor: STM32L053R8
  *  Compiler: ARM-GCC (STM32 IDE)
  *  Program version: 1.0
- *  Program description: N/A
- *  Hardware description/pin distribution: N/A
+ *  File: main.c
+ *  Hardware description/pin distribution: none (we read the itnernal temperature sensor of the STM32)
  *  Modified from: N/A
  *  Change history: N/A
 
