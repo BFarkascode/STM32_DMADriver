@@ -1,17 +1,11 @@
 /*
- *
  *  Created on: Oct 26, 2023
- *  Project: STM32_DMADriver
- *  File: DMADriver_STM32L0x3.c
  *  Author: BalazsFarkas
+ *  Project: STM32_DMADriver
  *  Processor: STM32L053R8
- *  Compiler: ARM-GCC (STM32 IDE)
  *  Program version: 1.0
- *  Program description: N/A
- *  Hardware description/pin distribution: N/A
- *  Modified from: N/A
- *  Change history: N/A
- *
+ *  File: DMADriver_STM32L0x3.c
+ *  Change history:
  *
  * v.1.0
  * Below is a custom DMA driver.
