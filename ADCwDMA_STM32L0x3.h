@@ -1,15 +1,11 @@
 /*
  *  Created on: Oct 26, 2023
- *  Project: STM32_DMADriver
- *  File: ADCwDMA_STM32L0x3.h
  *  Author: BalazsFarkas
+ *  Project: STM32_DMADriver
  *  Processor: STM32L053R8
- *  Compiler: ARM-GCC (STM32 IDE)
- *  Program version: 1.0
- *  Program description: N/A
- *  Hardware description/pin distribution: N/A
- *  Modified from: N/A
- *  Change history: N/A
+ *  HEader version: 1.0
+ *  File: ADCwDMA_STM32L0x3.h
+ *  Modified from: STM32_ADC-DACDriver/ADCDriver_STM32L0x3.h
  */
 
 #ifndef INC_ADCWDMA_STM32L0X3_H_
